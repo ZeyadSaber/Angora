@@ -101,14 +101,17 @@ header h1{
     line-height: 1;
     
 }
-@media screen and (max-width: 768px) {
-    header h1{
-        font-size: 40px;
-    }
-}
 header .header-w{
     width: 33%;
     transition: all 0.2s;
+}
+@media screen and (max-width: 768px) {
+    header h1{
+        font-size: 30px;
+    }
+    header .header-w{
+        width: 50%;
+    }
 }
 .mouse {
     position: absolute;
